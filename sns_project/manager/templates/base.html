@@ -23,7 +23,7 @@
 
   <!-- My style -->
   <link rel="stylesheet" type="text/css" href="{% static 'css/one-page-wonder.min.css' %}">
-  {% block head %}{% end block %}
+  {% block head %}{% endblock %}
 
 </head>
 
@@ -32,7 +32,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
-      <a class="navbar-brand" href={% url 'manage:index' %}>Login</a>
+      <a class="navbar-brand" href={% url 'manager:index' %}>Login</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
